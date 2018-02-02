@@ -1,7 +1,7 @@
 pipeline:
-  build:
-    image: golang
-    commands:
-      - go get
-      - go build
-      - go test
+  docker:
+    registry: 10.10.30.38              # 私有registry地址
+    # auth: {}                  # auth_token
+    image: plugins/docker
+    repo: java-test-app/nginx-test # 修改为你对应的repo名字
+    tags: latest                # tags
