@@ -10,3 +10,4 @@
 [![Sonarqube quality gate](https://sonarqube.com/api/badges/gate?key=org.testng:testng)](https://sonarqube.com/dashboard/index?id=org.testng:testng)
 
 Documentation available at [TestNG's main web site](http://testng.org).
+test
